@@ -34,7 +34,7 @@ jobs:
          server_port: ${{ secrets.EMAIL_PORT }}
          username: ${{ secrets.EMAIL_USER }}
          password: ${{ secrets.EMAIL_PASSWORD }}
-         to: 4cb38cb7-b2ed-4211-a263-cd579c8ef591@mailslurp.mx
+         to: 79e8feef-e8a2-4a82-a407-a2f9a40c245e@mailslurp.mx
          from: iYanChenyi@gmail.com
          subject: "Github workflow from ${{ github.ref_name }}"
          body: "The job is ${{ job.status }}"
